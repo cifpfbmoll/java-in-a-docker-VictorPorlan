@@ -1,14 +1,2 @@
-# Autograding Example: Java
-This example project is written in Java, and tested with Gradle/JUnit.
-
-### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
-
-### Setup command
-N/A
-
-### Run command
-`gradle test`
-
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+Java-in-a-Docker
+En este kata dockerizamos un programa en Java. En mi caso he decidido hacerlo con el de Ollivanders ya que en su momento Carlos Franco y yo lo hicimos para aprender Java y ahora nos viene bien ya que es el más parecido al del repositorio de [dfleta](https://github.com/dfleta/docker-multistage-maven-java), que es en el que me he basado 100% para hacer este Dockerfile.
